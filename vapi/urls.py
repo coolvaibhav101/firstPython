@@ -28,4 +28,4 @@ urlpatterns = [
     path('', home),
     ]+    static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     # path('', include('home.urls')),
-]
+# ]
